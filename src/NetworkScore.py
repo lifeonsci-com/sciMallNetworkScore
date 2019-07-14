@@ -1,0 +1,6 @@
+
+
+
+class NetworkScore(object) {
+
+}
