@@ -1,6 +1,6 @@
 
 
-.00# 萊弗拓 -- sciMallNetworkScore
+# 萊弗拓 -- sciMallNetworkScore
 
 ### 主要內容
 
@@ -16,4 +16,18 @@
 #### 主要贡献
 
 使用一种可扩展式的半监督学习卷积神经网络方法处理基于图结构的基因网络数据。
+
+### 准备
+
+Document: https://cran.r-project.org/web/packages/rPython/rPython.pdf
+
+R 环境
+```
+
+install.packages("rPython")
+
+
+```
+
+
 

@@ -1,6 +1,6 @@
 
 import tensorflow as tf
-from layers im
+from layers import GraphConvolution
 
 class Model(object):
     def __init__(self, **kwargs):
@@ -48,7 +48,9 @@ class NetworkScore(Model):
     def __init__(self, placeholders, num_features, **kwargs):
         super(NetworkScore, self).__init__(**kwargs)
         self.features = placeholders['features']
-        self.input_dim = placeholders['input_dim']
+        self.input_dim1 = placeholders['input_dim1']
+        self.output_dim1 = placeholders['output_dim1']
+
         self.adj = placeholders['adj']
         self.dropout = placeholders['dropout']
 
@@ -59,5 +61,20 @@ class NetworkScore(Model):
                                         adj=self.adj,
                                         act=tf.nn.relu,
                                         dropout=self.dropout,
-                                        logging=self.logging)(self.inputs)
+                                        logging=self.logging)(self.features)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
