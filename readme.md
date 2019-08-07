@@ -2,6 +2,8 @@
 
 # 萊弗拓 -- sciMallNetworkScore
 
+![](./pic/graphConv.png)
+
 ### 主要內容
 
 结合基因对调控网络，基于图算法对Pathway（Gene Set）进行评分。
