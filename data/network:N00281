@@ -1,0 +1,25 @@
+ENTRY       N00281                      Network
+NAME        EGF-overexpression to PI3K signaling pathway
+DEFINITION  EGF* -> EGFR -> PI3K -> PIP3 -> AKT
+  EXPANDED  1950v1 -> 1956 -> (5290,5291,5293) -> C05981 -> (207,208,10000)
+CLASS       nt06214 PI3K signaling
+            nt06260 Colorectal cancer
+TYPE        Variant
+PATHWAY     hsa05210  Colorectal cancer
+DISEASE     H00020  Colorectal cancer
+GENE        1950  EGF; epidermal growth factor
+            1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+VARIANT     1950v1  EGF overexpression
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:24213116
+  AUTHORS   Wang D, Xia D, Dubois RN
+  TITLE     The Crosstalk of PTGS2 and EGF Signaling Pathways in Colorectal Cancer.
+  JOURNAL   Cancers (Basel) 3:3894-908 (2011)
+            DOI:10.3390/cancers3043894
+///

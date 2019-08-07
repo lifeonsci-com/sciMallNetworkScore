@@ -1,0 +1,47 @@
+EGF -> EGFR -> PI3K -> PIP3 -> AKT -| BAD
+FLT3* -> GRB2 -> SOS -> RAS -> PI3K -> PIP3 -> AKT -| BAD
+(KRAS*,NRAS*) -> PI3K -> PIP3 -> AKT -| BAD
+EGF -> EGFR -> PI3K -> PIP3 -> AKT -| BAD
+EGF -> (ERBB2*+EGFR) -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+EGFR* -> PI3K -> PIP3 -> AKT -> MTOR
+EGFR* -> PI3K -> PIP3 -> AKT -| BAD
+FGF -> FGFR -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+FGFR* -> PI3K -> PIP3 -> AKT -> MTOR
+PDGF -> PDGFR -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+PDGFR* -> PI3K -> PIP3 -> AKT -> MTOR
+EGFR* -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+HGF -> MET -> GAB1 -> PI3K -> PIP3 -> AKT -| BAD
+MET* -> GAB1 -> PI3K -> PIP3 -> AKT -| BAD
+KITLG -> KIT -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+KIT* -> PI3K -> PIP3 -> AKT -| BAD
+EML4-ALK -> PI3K -> PIP3 -> AKT -| BAD
+BCR-ABL -> (CRKL+CBL+CRK) -> PI3K -> PIP3 -> AKT -| BAD
+PI3K* -> PIP3 -> AKT -> MTOR -> S6K
+PI3K* -> PIP3 -> AKT -> MTOR -> S6K
+PTEN* // PIP3 -> AKT
+PTEN* // PIP3 -> AKT
+NKX3-1* // AKT -| BAD
+kshvK1 -> PI3K -> PIP3 -> AKT -> MTOR
+kshvK1 -> PI3K -> PIP3 -> AKT -> IKK -> NFKBIA -> NFKB -> VEGFA
+IGF1 -> IGF1R -> PI3K -> PIP3 -> AKT -> IKK -> NFKBIA -> NFKB
+FLT3LG -> FLT3 -> GRB2 -> SOS -> RAS -> PI3K -> PIP3 -> AKT -> MTOR
+PTEN -| PIP3 -> AKT
+TGFA -> EGFR -> PI3K -> PIP3 -> AKT -> MTOR
+TGFA* -> EGFR -> PI3K -> PIP3 -> AKT
+IGF2 -> IGF1R -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+IGF2* -> IGF1R -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+IGF2 -> IGF1R* -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+HGF* -> MET -> GAB1 -> PI3K -> PIP3 -> AKT -| BAD
+MET* -> GAB1 -> PI3K -> PIP3 -> AKT -| BAD
+EGF -> (ERBB2*+EGFR) -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+MET* -> GAB1 -> PI3K -> PIP3 -> AKT -> MTOR
+hbvX -> PI3K -> PIP3 -> AKT -| BAD
+hcvNS5A -> PI3K -> PIP3 -> AKT -| BAD
+EGF* -> EGFR -> PI3K -> PIP3 -> AKT
+EREG -> EGFR -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+EREG* -> EGFR -> PI3K -> PIP3 -> AKT -> S6K
+AREG -> EGFR -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+AREG* -> EGFR -> PI3K -> PIP3 -> AKT -> S6K
+EGF -> EGFR -> PI3K -> PIP3 -> AKT -> IKK -> NFKBIA -> NFKB
+htlvTAX -> PI3K -> PIP3 -> AKT -> IKK -> NFKBIA -> NFKB
+htlvTAX -| DLG1 -> PTEN -| PIP3 -> AKT

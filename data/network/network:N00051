@@ -1,0 +1,42 @@
+ENTRY       N00051                      Network
+NAME        Deleted PTEN to PI3K signaling pathway
+DEFINITION  PTEN* // PIP3 -> AKT
+  EXPANDED  5728v1 // C05981 -> (207,208,10000)
+CLASS       nt06214 PI3K signaling
+            nt06267 Small cell lung cancer
+            nt06268 Melanoma
+            nt06273 Glioma
+TYPE        Variant
+PATHWAY     hsa05214  Glioma
+            hsa05218  Melanoma
+            hsa05222  Small cell lung cancer
+DISEASE     H00042  Glioma
+            H00038  Melanoma
+            H00013  Small cell lung cancer
+GENE        5728  PTEN; phosphatase and tensin homolog
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+VARIANT     5728v1  PTEN deletion
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:18767981
+  AUTHORS   Chalhoub N, Baker SJ
+  TITLE     PTEN and the PI3-kinase pathway in cancer.
+  JOURNAL   Annu Rev Pathol 4:127-50 (2009)
+            DOI:10.1146/annurev.pathol.4.110807.092311
+REFERENCE   PMID:15639402
+  AUTHORS   Soni D, King JA, Kaye AH, Hovens CM.
+  TITLE     Genetics of glioblastoma multiforme: mitogenic signaling and cell cycle pathways converge.
+  JOURNAL   J Clin Neurosci 12:1-5 (2005)
+            DOI:10.1016/j.jocn.2004.04.001
+REFERENCE   PMID:16291983
+  AUTHORS   Curtin JA, Fridlyand J, Kageshita T, Patel HN, Busam KJ, Kutzner H, Cho KH, Aiba S, Brocker EB, LeBoit PE, Pinkel D, Bastian BC
+  TITLE     Distinct sets of genetic alterations in melanoma.
+  JOURNAL   N Engl J Med 353:2135-47 (2005)
+            DOI:10.1056/NEJMoa050092
+REFERENCE   PMID:16822996
+  AUTHORS   Miller AJ, Mihm MC Jr.
+  TITLE     Melanoma.
+  JOURNAL   N Engl J Med 355:51-65 (2006)
+            DOI:10.1056/NEJMra052166
+///

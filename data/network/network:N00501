@@ -1,0 +1,35 @@
+ENTRY       N00501                      Network
+NAME        HTLV-1 Tax to EGFR-PI3K-NFKB signaling pathway
+DEFINITION  htlvTAX -> PI3K -> PIP3 -> AKT -> IKK -> NFKBIA -> NFKB
+  EXPANDED  K21857 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> (1147+3551+8517) -> 4792 -> (4790+5970)
+CLASS       nt06214 PI3K signaling
+            nt06114 PI3K signaling (virus)
+            nt06160 Human T-cell leukemia virus 1 (HTLV-1)
+TYPE        Virus
+PATHWAY     hsa05166  Human T-cell leukemia virus 1 infection
+DISEASE     H00009  Adult T-cell leukemia
+GENE        5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            1147  CHUK; conserved helix-loop-helix ubiquitous kinase
+            3551  IKBKB; inhibitor of nuclear factor kappa B kinase subunit beta
+            8517  IKBKG; inhibitor of nuclear factor kappa B kinase subunit gamma
+            4792  NFKBIA; NFKB inhibitor alpha
+            4790  NFKB1; nuclear factor kappa B subunit 1
+            5970  RELA; RELA proto-oncogene, NF-kB subunit
+PERTURBANT  K21857  tax; protein Tax-1
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:21994767
+  AUTHORS   Saggioro D
+  TITLE     Anti-apoptotic effect of Tax: an NF-kappaB path or a CREB way?
+  JOURNAL   Viruses 3:1001-14 (2011)
+            DOI:10.3390/v3071001
+REFERENCE   PMID:17384582
+  AUTHORS   Matsuoka M, Jeang KT
+  TITLE     Human T-cell leukaemia virus type 1 (HTLV-1) infectivity and cellular transformation.
+  JOURNAL   Nat Rev Cancer 7:270-80 (2007)
+            DOI:10.1038/nrc2111
+///

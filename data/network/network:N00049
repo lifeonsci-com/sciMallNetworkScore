@@ -1,0 +1,37 @@
+ENTRY       N00049                      Network
+NAME        Mutation-activated PI3K to PI3K signaling pathway
+DEFINITION  PI3K* -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  5290v1 -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06263 Hepatocellular carcinoma
+            nt06270 Breast cancer
+TYPE        Variant
+PATHWAY     hsa05225  Hepatocellular carcinoma
+            hsa05224  Breast cancer
+DISEASE     H00048  Hepatocellular carcinoma
+            H00031  Breast cancer
+GENE        5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+VARIANT     5290v1  PIK3CA mutation
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:23881035
+  AUTHORS   Ignatiadis M, Sotiriou C
+  TITLE     Luminal breast cancer: from biology to treatment.
+  JOURNAL   Nat Rev Clin Oncol 10:494-506 (2013)
+            DOI:10.1038/nrclinonc.2013.124
+REFERENCE   PMID:26028978
+  AUTHORS   Mukohara T
+  TITLE     PI3K mutations in breast cancer: prognostic and therapeutic implications.
+  JOURNAL   Breast Cancer (Dove Med Press) 7:111-23 (2015)
+            DOI:10.2147/BCTT.S60696
+REFERENCE   PMID:20639898
+  AUTHORS   Whittaker S, Marais R, Zhu AX
+  TITLE     The role of signaling pathways in the development and treatment of hepatocellular carcinoma.
+  JOURNAL   Oncogene 29:4989-5005 (2010)
+            DOI:10.1038/onc.2010.236
+///

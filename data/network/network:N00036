@@ -1,0 +1,31 @@
+ENTRY       N00036                      Network
+NAME        Mutation-activated EGFR to PI3K signaling pathway
+DEFINITION  EGFR* -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  (1956v2,1956v3) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06266 Non-small cell lung cancer
+TYPE        Variant
+PATHWAY     hsa05223  Non-small cell lung cancer
+DISEASE     H00014  Non-small cell lung cancer
+GENE        1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+VARIANT     1956v2  EGFR mutation in non-small cell lung cancer
+            1956v3  First generation TKI-resistant EGFR mutation
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:12379883
+  AUTHORS   Osada H, Takahashi T.
+  TITLE     Genetic alterations of multiple tumor suppressors and oncogenes in the carcinogenesis and progression of lung cancer.
+  JOURNAL   Oncogene 21:7421-34 (2002)
+            DOI:10.1038/sj.onc.1205802
+REFERENCE   PMID:12867060
+  AUTHORS   Hirsch FR, Scagliotti GV, Langer CJ, Varella-Garcia M, Franklin WA.
+  TITLE     Epidermal growth factor family of receptors in preneoplasia and lung cancer: perspectives for targeted therapies.
+  JOURNAL   Lung Cancer 41 Suppl 1:S29-42 (2003)
+            DOI:10.1016/S0169-5002(03)00137-5
+///

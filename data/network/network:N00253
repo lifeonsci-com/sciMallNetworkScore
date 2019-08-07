@@ -1,0 +1,43 @@
+ENTRY       N00253                      Network
+NAME        Amplified ERBB2 to PI3K signaling pathway
+DEFINITION  EGF -> (ERBB2*+EGFR) -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  1950 -> (2064v3+1956) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06261 Gastric cancer
+TYPE        Variant
+PATHWAY     hsa05226  Gastric cancer
+DISEASE     H00018  Gastric cancer
+GENE        1950  EGF; epidermal growth factor
+            2064  ERBB2; erb-b2 receptor tyrosine kinase 2
+            1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin kinase
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+VARIANT     2064v3  ERBB2 amplification
+REFERENCE   PMID:18337605
+  AUTHORS   Ciardiello F, Tortora G
+  TITLE     EGFR antagonists in cancer treatment.
+  JOURNAL   N Engl J Med 358:1160-74 (2008)
+            DOI:10.1056/NEJMra0707704
+REFERENCE   PMID:26267324
+  AUTHORS   Riquelme I, Saavedra K, Espinoza JA, Weber H, Garcia P, Nervi B, Garrido M, Corvalan AH, Roa JC, Bizama C
+  TITLE     Molecular classification of gastric cancer: Towards a pathway-driven targeted therapy.
+  JOURNAL   Oncotarget 6:24750-79 (2015)
+            DOI:10.18632/oncotarget.4990
+REFERENCE   PMID:24061039
+  AUTHORS   Wadhwa R, Song S, Lee JS, Yao Y, Wei Q, Ajani JA
+  TITLE     Gastric cancer-molecular and clinical dimensions.
+  JOURNAL   Nat Rev Clin Oncol 10:643-55 (2013)
+            DOI:10.1038/nrclinonc.2013.170
+REFERENCE   PMID:26071484
+  AUTHORS   Bertotti A, Sassi F
+  TITLE     Molecular Pathways: Sensitivity and Resistance to Anti-EGFR Antibodies.
+  JOURNAL   Clin Cancer Res 21:3377-83 (2015)
+            DOI:10.1158/1078-0432.CCR-14-0848
+///

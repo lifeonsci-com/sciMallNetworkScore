@@ -1,0 +1,43 @@
+ENTRY       N00236                      Network
+NAME        IGF2-overexpression to PI3K signaling pathway
+DEFINITION  IGF2* -> IGF1R -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  3481v1 -> 3480 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06263 Hepatocellular carcinoma
+TYPE        Variant
+PATHWAY     hsa05225  Hepatocellular carcinoma
+DISEASE     H00048  Hepatocellular carcinoma
+GENE        3481  IGF2; insulin like growth factor 2
+            3480  IGF1R; insulin like growth factor 1 receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+VARIANT     3481v1  IGF2 overexpression
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:20639898
+  AUTHORS   Whittaker S, Marais R, Zhu AX
+  TITLE     The role of signaling pathways in the development and treatment of hepatocellular carcinoma.
+  JOURNAL   Oncogene 29:4989-5005 (2010)
+            DOI:10.1038/onc.2010.236
+REFERENCE   PMID:17295177
+  AUTHORS   Villanueva A, Newell P, Chiang DY, Friedman SL, Llovet JM.
+  TITLE     Genomics and signaling pathways in hepatocellular carcinoma.
+  JOURNAL   Semin Liver Dis 27:55-76 (2007)
+            DOI:10.1055/s-2006-960171
+REFERENCE   PMID:21829020
+  AUTHORS   Kudo M
+  TITLE     Signaling pathway and molecular-targeted therapy for hepatocellular carcinoma.
+  JOURNAL   Dig Dis 29:289-302 (2011)
+            DOI:10.1159/000327562
+REFERENCE   PMID:19387255
+  AUTHORS   Minguez B, Tovar V, Chiang D, Villanueva A, Llovet JM
+  TITLE     Pathogenesis of hepatocellular carcinoma and molecular therapies.
+  JOURNAL   Curr Opin Gastroenterol 25:186-94 (2009)
+            DOI:10.1097/MOG.0b013e32832962a1
+///

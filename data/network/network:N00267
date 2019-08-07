@@ -1,0 +1,41 @@
+ENTRY       N00267                      Network
+NAME        HBV HBx to PI3K signaling pathway
+DEFINITION  hbvX -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  K21854 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06263 Hepatocellular carcinoma
+            nt06114 PI3K signaling (virus)
+            nt06162 Hepatitis B virus (HBV)
+TYPE        Virus
+PATHWAY     hsa05161  Hepatitis B
+DISEASE     H00048  Hepatocellular carcinoma
+GENE        5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+PERTURBANT  K21854  X; protein X
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:16459163
+  AUTHORS   Zhang X, Zhang H, Ye L
+  TITLE     Effects of hepatitis B virus X protein on the development of liver cancer.
+  JOURNAL   J Lab Clin Med 147:58-66 (2006)
+            DOI:10.1016/j.lab.2005.10.003
+REFERENCE   PMID:28820498
+  AUTHORS   Lin S, Zhang YJ
+  TITLE     Interference of Apoptosis by Hepatitis B Virus.
+  JOURNAL   Viruses 9:E230 (2017)
+            DOI:10.3390/v9080230
+REFERENCE   PMID:11278872
+  AUTHORS   Lee YI, Kang-Park S, Do SI, Lee YI
+  TITLE     The hepatitis B virus-X protein activates a phosphatidylinositol 3-kinase-dependent survival signaling cascade.
+  JOURNAL   J Biol Chem 276:16969-77 (2001)
+            DOI:10.1074/jbc.M011263200
+REFERENCE   PMID:16891440
+  AUTHORS   Park NH, Song IH, Chung YH
+  TITLE     Chronic hepatitis B in hepatocarcinogenesis.
+  JOURNAL   Postgrad Med J 82:507-15 (2006)
+            DOI:10.1136/pgmj.2006.047431
+///

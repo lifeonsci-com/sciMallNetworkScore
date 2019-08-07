@@ -1,0 +1,35 @@
+ENTRY       N00046                      Network
+NAME        Mutation-activated KIT to PI3K signaling pathway
+DEFINITION  KIT* -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  3815v1 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06275 Acute myeloid leukemia
+TYPE        Variant
+PATHWAY     hsa05221  Acute myeloid leukemia
+DISEASE     H00003  Acute myeloid leukemia
+GENE        3815  KIT; KIT proto-oncogene receptor tyrosine kinase
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+VARIANT     3815v1  KIT kinase domain mutation
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:19540337
+  AUTHORS   Masson K, Ronnstrand L
+  TITLE     Oncogenic signaling from the hematopoietic growth factor receptors c-Kit and Flt3.
+  JOURNAL   Cell Signal 21:1717-26 (2009)
+            DOI:10.1016/j.cellsig.2009.06.002
+REFERENCE   PMID:15625120
+  AUTHORS   Lennartsson J, Jelacic T, Linnekin D, Shivakrupa R.
+  TITLE     Normal and oncogenic forms of the receptor tyrosine kinase kit.
+  JOURNAL   Stem Cells 23:16-43 (2005)
+            DOI:10.1634/stemcells.2004-0117
+REFERENCE   PMID:16236521
+  AUTHORS   Steffen B, Muller-Tidow C, Schwable J, Berdel WE, Serve H.
+  TITLE     The molecular pathogenesis of acute myeloid leukemia.
+  JOURNAL   Crit Rev Oncol Hematol 56:195-221 (2005)
+            DOI:10.1016/j.critrevonc.2004.10.012
+///

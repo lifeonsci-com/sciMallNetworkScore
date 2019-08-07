@@ -1,0 +1,38 @@
+ENTRY       N00048                      Network
+NAME        BCR-ABL fusion kinase to PI3K signaling pathway
+DEFINITION  BCR-ABL -> (CRKL+CBL+CRK) -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  (25v1,25v2) -> (1399+867+1398) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06276 Chronic myeloid leukemia
+TYPE        Variant
+PATHWAY     hsa05220  Chronic myeloid leukemia
+DISEASE     H00004  Chronic myeloid leukemia
+GENE        25  ABL1; ABL proto-oncogene 1, non-receptor tyrosine kinase
+            1399  CRKL; CRK proto-oncogene, adaptor protein
+            867  CBL; Cbl proto-oncogene
+            1398  CRK; CRK proto-oncogene, adaptor protein
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+VARIANT     25v1  BCR-ABL1 fusion
+            25v2  First generation TKI-resistant ABL1 mutation
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:10403855
+  AUTHORS   Faderl S, Talpaz M, Estrov Z, O'Brien S, Kurzrock R, Kantarjian HM.
+  TITLE     The biology of chronic myeloid leukemia.
+  JOURNAL   N Engl J Med 341:164-72 (1999)
+            DOI:10.1056/NEJM199907153410306
+REFERENCE   PMID:11071626
+  AUTHORS   Deininger MW, Goldman JM, Melo JV.
+  TITLE     The molecular biology of chronic myeloid leukemia.
+  JOURNAL   Blood 96:3343-56 (2000)
+REFERENCE   PMID:14982876
+  AUTHORS   Calabretta B, Perrotti D.
+  TITLE     The biology of CML blast crisis.
+  JOURNAL   Blood 103:4010-22 (2004)
+            DOI:10.1182/blood-2003-12-4111
+///

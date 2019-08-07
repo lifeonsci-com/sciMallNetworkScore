@@ -1,0 +1,24 @@
+ENTRY       N00050                      Network
+NAME        Amplified PI3K to PI3K signaling pathway
+DEFINITION  PI3K* -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  5290v2 -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06270 Breast cancer
+TYPE        Variant
+PATHWAY     hsa05224  Breast cancer
+DISEASE     H00031  Breast cancer
+GENE        5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+VARIANT     5290v2  PIK3CA amplification
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:26028978
+  AUTHORS   Mukohara T
+  TITLE     PI3K mutations in breast cancer: prognostic and therapeutic implications.
+  JOURNAL   Breast Cancer (Dove Med Press) 7:111-23 (2015)
+            DOI:10.2147/BCTT.S60696
+///

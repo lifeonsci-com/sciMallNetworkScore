@@ -1,0 +1,42 @@
+ENTRY       N00247                      Network
+NAME        HGF-overexpression to PI3K signaling pathway
+DEFINITION  HGF* -> MET -> GAB1 -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  3082v1 -> 4233 -> 2549 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06263 Hepatocellular carcinoma
+TYPE        Variant
+PATHWAY     hsa05225  Hepatocellular carcinoma
+DISEASE     H00048  Hepatocellular carcinoma
+GENE        3082  HGF; hepatocyte growth factor
+            4233  MET; MET proto-oncogene, receptor tyrosine kinase
+            2549  GAB1; GRB2 associated binding protein 1
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+VARIANT     3082v1  HGF overexpression
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:16799620
+  AUTHORS   Breuhahn K, Longerich T, Schirmacher P
+  TITLE     Dysregulation of growth factor signaling in human hepatocellular carcinoma.
+  JOURNAL   Oncogene 25:3787-800 (2006)
+            DOI:10.1038/sj.onc.1209556
+REFERENCE   PMID:25841916
+  AUTHORS   Harding JJ, Abou-Alfa GK
+  TITLE     Systemic therapy for hepatocellular carcinoma.
+  JOURNAL   Chin Clin Oncol 2:37 (2013)
+            DOI:10.3978/j.issn.2304-3865.2013.07.06
+REFERENCE   PMID:24959084
+  AUTHORS   Parikh RA, Wang P, Beumer JH, Chu E, Appleman LJ
+  TITLE     The potential roles of hepatocyte growth factor (HGF)-MET pathway inhibitors in cancer treatment.
+  JOURNAL   Onco Targets Ther 7:969-83 (2014)
+            DOI:10.2147/OTT.S40241
+REFERENCE   PMID:27471710
+  AUTHORS   Lee D, Sung ES, Ahn JH, An S, Huh J, You WK
+  TITLE     Development of antibody-based c-Met inhibitors for targeted cancer therapy.
+  JOURNAL   Immunotargets Ther 4:35-44 (2015)
+            DOI:10.2147/ITT.S37409
+///

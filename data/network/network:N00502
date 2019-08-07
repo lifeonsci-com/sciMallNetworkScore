@@ -1,0 +1,28 @@
+ENTRY       N00502                      Network
+NAME        HTLV-1 Tax to PTEN-PIP3-AKT signaling pathway
+DEFINITION  htlvTAX -| DLG1 -> PTEN -| PIP3 -> AKT
+  EXPANDED  K21857 -| 1739 -> 5728 -| C05981 -> (207,208,10000)
+CLASS       nt06214 PI3K signaling
+            nt06114 PI3K signaling (virus)
+            nt06160 Human T-cell leukemia virus 1 (HTLV-1)
+TYPE        Virus
+PATHWAY     hsa05166  Human T-cell leukemia virus 1 infection
+DISEASE     H00009  Adult T-cell leukemia
+GENE        1739  DLG1; discs large MAGUK scaffold protein 1
+            5728  PTEN; phosphatase and tensin homolog
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+PERTURBANT  K21857  tax; protein Tax-1
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:26797638
+  AUTHORS   James CD, Roberts S
+  TITLE     Viral Interactions with PDZ Domain-Containing Proteins-An Oncogenic Trait?
+  JOURNAL   Pathogens 5:E8 (2016)
+            DOI:10.3390/pathogens5010008
+REFERENCE   PMID:26324707
+  AUTHORS   Cherian MA, Baydoun HH, Al-Saleem J, Shkriabai N, Kvaratskhelia M, Green P, Ratner L
+  TITLE     Akt Pathway Activation by Human T-cell Leukemia Virus Type 1 Tax Oncoprotein.
+  JOURNAL   J Biol Chem 290:26270-81 (2015)
+            DOI:10.1074/jbc.M115.684746
+///

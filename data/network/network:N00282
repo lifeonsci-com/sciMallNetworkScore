@@ -1,0 +1,32 @@
+ENTRY       N00282                      Network
+NAME        EREG-EGFR-PI3K signaling pathway
+DEFINITION  EREG -> EGFR -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  2069 -> 1956 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06260 Colorectal cancer
+TYPE        Reference
+PATHWAY     hsa04012  ErbB signaling pathway
+            hsa04151  PI3K-Akt signaling pathway
+GENE        2069  EREG; epiregulin
+            1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin kinase
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:14967450
+  AUTHORS   Marmor MD, Skaria KB, Yarden Y.
+  TITLE     Signal transduction and oncogenesis by ErbB/HER receptors.
+  JOURNAL   Int J Radiat Oncol Biol Phys 58:903-13 (2004)
+            DOI:10.1016/j.ijrobp.2003.06.002
+REFERENCE   PMID:17000658
+  AUTHORS   Scaltriti M, Baselga J.
+  TITLE     The epidermal growth factor receptor pathway: a model for targeted therapy.
+  JOURNAL   Clin Cancer Res 12:5268-72 (2006)
+            DOI:10.1158/1078-0432.CCR-05-1554
+///

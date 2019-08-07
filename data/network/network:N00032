@@ -1,0 +1,59 @@
+ENTRY       N00032                      Network
+NAME        Mutation-activated KRAS/NRAS to PI3K signaling pathway
+DEFINITION  (KRAS*,NRAS*) -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  (3845v1,4893v1) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06260 Colorectal cancer
+            nt06262 Pancreatic cancer
+            nt06266 Non-small cell lung cancer
+            nt06268 Melanoma
+            nt06275 Acute myeloid leukemia
+TYPE        Variant
+PATHWAY     hsa05210  Colorectal cancer
+            hsa05212  Pancreatic cancer
+            hsa05221  Acute myeloid leukemia
+            hsa05223  Non-small cell lung cancer
+            hsa05218  Melanoma
+DISEASE     H00020  Colorectal cancer
+            H00019  Pancreatic cancer
+            H00003  Acute myeloid leukemia
+            H00014  Non-small cell lung cancer
+            H00038  Melanoma
+GENE        3845  KRAS; KRAS proto-oncogene, GTPase
+            4893  NRAS; NRAS proto-oncogene, GTPase
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+VARIANT     3845v1  KRAS mutation
+            4893v1  NRAS mutation
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:17384584
+  AUTHORS   Schubbert S, Shannon K, Bollag G
+  TITLE     Hyperactive Ras in developmental disorders and cancer.
+  JOURNAL   Nat Rev Cancer 7:295-308 (2007)
+            DOI:10.1038/nrc2109
+REFERENCE   PMID:11459867
+  AUTHORS   Adjei AA.
+  TITLE     Blocking oncogenic Ras signaling for cancer therapy.
+  JOURNAL   J Natl Cancer Inst 93:1062-74 (2001)
+            DOI:10.1093/jnci/93.14.1062
+REFERENCE   PMID:12737309
+  AUTHORS   Janssen KP.
+  TITLE     Murine models of colorectal cancer: studying the role of oncogenic K-ras.
+  JOURNAL   Cell Mol Life Sci 60:495-506 (2003)
+            DOI:10.1007/s000180300041
+REFERENCE   PMID:16642045
+  AUTHORS   Martelli AM, Nyakern M, Tabellini G, Bortul R, Tazzari PL, Evangelisti C, Cocco L.
+  TITLE     Phosphoinositide 3-kinase/Akt signaling pathway and its therapeutical implications for human acute myeloid leukemia.
+  JOURNAL   Leukemia 20:911-28 (2006)
+            DOI:10.1038/sj.leu.2404245
+REFERENCE   PMID:16822996
+  AUTHORS   Miller AJ, Mihm MC Jr.
+  TITLE     Melanoma.
+  JOURNAL   N Engl J Med 355:51-65 (2006)
+            DOI:10.1056/NEJMra052166
+///

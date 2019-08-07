@@ -1,0 +1,35 @@
+ENTRY       N00040                      Network
+NAME        Amplified PDGFR to PI3K signaling pathway
+DEFINITION  PDGFR* -> PI3K -> PIP3 -> AKT -> MTOR
+  EXPANDED  5156v1 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475
+CLASS       nt06214 PI3K signaling
+            nt06273 Glioma
+TYPE        Variant
+PATHWAY     hsa05214  Glioma
+DISEASE     H00042  Glioma
+GENE        5156  PDGFRA; platelet derived growth factor receptor alpha
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+VARIANT     5156v1  PDGFRA amplification
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:25342206
+  AUTHORS   Westermark B
+  TITLE     Platelet-derived growth factor in glioblastoma-driver or biomarker?
+  JOURNAL   Ups J Med Sci 119:298-305 (2014)
+            DOI:10.3109/03009734.2014.970304
+REFERENCE   PMID:15639402
+  AUTHORS   Soni D, King JA, Kaye AH, Hovens CM.
+  TITLE     Genetics of glioblastoma multiforme: mitogenic signaling and cell cycle pathways converge.
+  JOURNAL   J Clin Neurosci 12:1-5 (2005)
+            DOI:10.1016/j.jocn.2004.04.001
+REFERENCE   PMID:16700615
+  AUTHORS   Bansal K, Liang ML, Rutka JT.
+  TITLE     Molecular biology of human gliomas.
+  JOURNAL   Technol Cancer Res Treat 5:185-94 (2006)
+            DOI:10.1177/153303460600500302
+///

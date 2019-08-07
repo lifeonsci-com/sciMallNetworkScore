@@ -1,0 +1,41 @@
+ENTRY       N00231                      Network
+NAME        TGFA-EGFR-PI3K signaling pathway
+DEFINITION  TGFA -> EGFR -> PI3K -> PIP3 -> AKT -> MTOR
+  EXPANDED  7039 -> 1956 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475
+CLASS       nt06214 PI3K signaling
+            nt06260 Colorectal cancer
+            nt06263 Hepatocellular carcinoma
+TYPE        Reference
+PATHWAY     hsa04012  ErbB signaling pathway
+            hsa04151  PI3K-Akt signaling pathway
+GENE        7039  TGFA; transforming growth factor alpha
+            1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:20551945
+  AUTHORS   Janku F, Stewart DJ, Kurzrock R
+  TITLE     Targeted therapy in non-small-cell lung cancer--is it becoming a reality?
+  JOURNAL   Nat Rev Clin Oncol 7:401-14 (2010)
+            DOI:10.1038/nrclinonc.2010.64
+REFERENCE   PMID:22170487
+  AUTHORS   Mascia F, Denning M, Kopan R, Yuspa SH
+  TITLE     The black box illuminated: signals and signaling.
+  JOURNAL   J Invest Dermatol 132:811-9 (2012)
+            DOI:10.1038/jid.2011.406
+REFERENCE   PMID:14967450
+  AUTHORS   Marmor MD, Skaria KB, Yarden Y.
+  TITLE     Signal transduction and oncogenesis by ErbB/HER receptors.
+  JOURNAL   Int J Radiat Oncol Biol Phys 58:903-13 (2004)
+            DOI:10.1016/j.ijrobp.2003.06.002
+REFERENCE   PMID:17000658
+  AUTHORS   Scaltriti M, Baselga J.
+  TITLE     The epidermal growth factor receptor pathway: a model for targeted therapy.
+  JOURNAL   Clin Cancer Res 12:5268-72 (2006)
+            DOI:10.1158/1078-0432.CCR-05-1554
+///

@@ -1,0 +1,36 @@
+ENTRY       N00272                      Network
+NAME        HCV NS5A to PI3K signaling pathway
+DEFINITION  hcvNS5A -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  K22275 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06263 Hepatocellular carcinoma
+            nt06114 PI3K signaling (virus)
+            nt06163 Hepatitis C virus (HCV)
+TYPE        Virus
+PATHWAY     hsa05160  Hepatitis C
+DISEASE     H00048  Hepatocellular carcinoma
+GENE        5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+PERTURBANT  K22275  NS5A; non-structural protein 5A
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:15302943
+  AUTHORS   Macdonald A, Harris M
+  TITLE     Hepatitis C virus NS5A: tales of a promiscuous protein.
+  JOURNAL   J Gen Virol 85:2485-502 (2004)
+            DOI:10.1099/vir.0.80204-0
+REFERENCE   PMID:12686421
+  AUTHORS   Panteva M, Korkaya H, Jameel S
+  TITLE     Hepatitis viruses and the MAPK pathway: is this a survival strategy?
+  JOURNAL   Virus Res 92:131-40 (2003)
+            DOI:10.1016/S0168-1702(02)00356-8
+REFERENCE   PMID:12186904
+  AUTHORS   He Y, Nakao H, Tan SL, Polyak SJ, Neddermann P, Vijaysri S, Jacobs BL, Katze MG
+  TITLE     Subversion of cell signaling pathways by hepatitis C virus nonstructural 5A protein via interaction with Grb2 and P85 phosphatidylinositol 3-kinase.
+  JOURNAL   J Virol 76:9207-17 (2002)
+            DOI:10.1128/JVI.76.18.9207-9217.2002
+///

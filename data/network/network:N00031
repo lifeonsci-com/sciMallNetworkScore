@@ -1,0 +1,37 @@
+ENTRY       N00031                      Network
+NAME        Duplication or mutation-activated FLT3 to RAS-PI3K signaling pathway
+DEFINITION  FLT3* -> GRB2 -> SOS -> RAS -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  (2322v2,2322v1) -> 2885 -> (6654,6655) -> (3265,3845,4893) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06275 Acute myeloid leukemia
+TYPE        Variant
+PATHWAY     hsa05221  Acute myeloid leukemia
+DISEASE     H00003  Acute myeloid leukemia
+GENE        2322  FLT3; fms related tyrosine kinase 3
+            2885  GRB2; growth factor receptor bound protein 2
+            6654  SOS1; SOS Ras/Rac guanine nucleotide exchange factor 1
+            6655  SOS2; SOS Ras/Rho guanine nucleotide exchange factor 2
+            3265  HRAS; HRas proto-oncogene, GTPase
+            3845  KRAS; KRAS proto-oncogene, GTPase
+            4893  NRAS; NRAS proto-oncogene, GTPase
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+VARIANT     2322v2  FLT3 internal tandem duplication (ITD)
+            2322v1  FLT3 kinase domain mutation
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:12951584
+  AUTHORS   Stirewalt DL, Radich JP.
+  TITLE     The role of FLT3 in haematopoietic malignancies.
+  JOURNAL   Nat Rev Cancer 3:650-65 (2003)
+            DOI:10.1038/nrc1169
+REFERENCE   PMID:16642045
+  AUTHORS   Martelli AM, Nyakern M, Tabellini G, Bortul R, Tazzari PL, Evangelisti C, Cocco L.
+  TITLE     Phosphoinositide 3-kinase/Akt signaling pathway and its therapeutical implications for human acute myeloid leukemia.
+  JOURNAL   Leukemia 20:911-28 (2006)
+            DOI:10.1038/sj.leu.2404245
+///

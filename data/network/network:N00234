@@ -1,0 +1,31 @@
+ENTRY       N00234                      Network
+NAME        IGF2-IGF1R-PI3K signaling pathway
+DEFINITION  IGF2 -> IGF1R -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  3481 -> 3480 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06263 Hepatocellular carcinoma
+TYPE        Reference
+PATHWAY     hsa04151  PI3K-Akt signaling pathway
+GENE        3481  IGF2; insulin like growth factor 2
+            3480  IGF1R; insulin like growth factor 1 receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:25362932
+  AUTHORS   Aaltonen KE, Rosendahl AH, Olsson H, Malmstrom P, Hartman L, Ferno M
+  TITLE     Association between insulin-like growth factor-1 receptor (IGF1R) negativity and poor prognosis in a cohort of women with primary breast cancer.
+  JOURNAL   BMC Cancer 14:794 (2014)
+            DOI:10.1186/1471-2407-14-794
+REFERENCE   PMID:26429980
+  AUTHORS   Iams WT, Lovly CM
+  TITLE     Molecular Pathways: Clinical Applications and Future Direction of Insulin-like Growth Factor-1 Receptor Pathway Blockade.
+  JOURNAL   Clin Cancer Res 21:4270-7 (2015)
+            DOI:10.1158/1078-0432.CCR-14-2518
+///

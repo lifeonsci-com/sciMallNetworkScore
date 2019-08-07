@@ -1,0 +1,35 @@
+ENTRY       N00260                      Network
+NAME        Amplified MET to PI3K signaling pathway
+DEFINITION  MET* -> GAB1 -> PI3K -> PIP3 -> AKT -> MTOR
+  EXPANDED  4233v3 -> 2549 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475
+CLASS       nt06214 PI3K signaling
+            nt06261 Gastric cancer
+TYPE        Variant
+PATHWAY     hsa05226  Gastric cancer
+DISEASE     H00018  Gastric cancer
+GENE        4233  MET; MET proto-oncogene, receptor tyrosine kinase
+            2549  GAB1; GRB2 associated binding protein 1
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin kinase
+VARIANT     4233v3  MET amplification
+REFERENCE   PMID:22042966
+  AUTHORS   Appleman LJ
+  TITLE     MET signaling pathway: a rational target for cancer therapy.
+  JOURNAL   J Clin Oncol 29:4837-8 (2011)
+            DOI:10.1200/JCO.2011.37.7929
+REFERENCE   PMID:22586678
+  AUTHORS   Feng Y, Ma PC
+  TITLE     Anti-MET targeted therapy has come of age: the first durable complete response with MetMAb in metastatic gastric cancer.
+  JOURNAL   Cancer Discov 1:550-4 (2011)
+            DOI:10.1158/2159-8290.CD-11-0289
+REFERENCE   PMID:26690587
+  AUTHORS   Kawakami H, Okamoto I
+  TITLE     MET-targeted therapy for gastric cancer: the importance of a biomarker-based strategy.
+  JOURNAL   Gastric Cancer 19:687-95 (2016)
+            DOI:10.1007/s10120-015-0585-x
+///

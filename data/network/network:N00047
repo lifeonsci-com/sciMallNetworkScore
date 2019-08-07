@@ -1,0 +1,41 @@
+ENTRY       N00047                      Network
+NAME        EML4-ALK fusion kinase to PI3K signaling pathway
+DEFINITION  EML4-ALK -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  (238v1,238v2) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06266 Non-small cell lung cancer
+TYPE        Variant
+PATHWAY     hsa05223  Non-small cell lung cancer
+DISEASE     H00014  Non-small cell lung cancer
+GENE        238  ALK; ALK receptor tyrosine kinase
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+VARIANT     238v1  EML4-ALK fusion
+            238v2  First generation TKI-resistant ALK1 mutation
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:23201355
+  AUTHORS   Roskoski R Jr
+  TITLE     Anaplastic lymphoma kinase (ALK): structure, oncogenic activation, and pharmacological inhibition.
+  JOURNAL   Pharmacol Res 68:68-94 (2013)
+            DOI:10.1016/j.phrs.2012.11.007
+REFERENCE   PMID:19629074
+  AUTHORS   Janne PA, Gray N, Settleman J
+  TITLE     Factors underlying sensitivity of cancers to small-molecule kinase inhibitors.
+  JOURNAL   Nat Rev Drug Discov 8:709-23 (2009)
+            DOI:10.1038/nrd2871
+REFERENCE   PMID:25806180
+  AUTHORS   Raghav KP, Gonzalez-Angulo AM, Blumenschein GR Jr
+  TITLE     Role of HGF/MET axis in resistance of lung cancer to contemporary management.
+  JOURNAL   Transl Lung Cancer Res 1:179-93 (2012)
+            DOI:10.3978/j.issn.2218-6751.2012.09.04
+REFERENCE   PMID:24091716
+  AUTHORS   Solomon B, Wilner KD, Shaw AT
+  TITLE     Current status of targeted therapy for anaplastic lymphoma kinase-rearranged non-small cell lung cancer.
+  JOURNAL   Clin Pharmacol Ther 95:15-23 (2014)
+            DOI:10.1038/clpt.2013.200
+///

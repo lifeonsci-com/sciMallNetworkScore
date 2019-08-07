@@ -1,0 +1,49 @@
+ENTRY       N00030                      Network
+NAME        EGF-EGFR-RAS-PI3K signaling pathway
+DEFINITION  EGF -> EGFR -> GRB2 -> SOS -> RAS -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  1950 -> 1956 -> 2885 -> (6654,6655) -> (3265,3845,4893) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06260 Colorectal cancer
+            nt06268 Melanoma
+            nt06114 PI3K signaling (virus)
+            nt06164 Kaposi sarcoma-associated herpesvirus (KSHV)
+TYPE        Reference
+PATHWAY     hsa04014  Ras signaling pathway
+            hsa04151  PI3K-Akt signaling pathway
+GENE        1950  EGF; epidermal growth factor
+            1956  EGFR; epidermal growth factor receptor
+            2885  GRB2; growth factor receptor bound protein 2
+            6654  SOS1; SOS Ras/Rac guanine nucleotide exchange factor 1
+            6655  SOS2; SOS Ras/Rho guanine nucleotide exchange factor 2
+            3265  HRAS; HRas proto-oncogene, GTPase
+            3845  KRAS; KRAS proto-oncogene, GTPase
+            4893  NRAS; NRAS proto-oncogene, GTPase
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:12040186
+  AUTHORS   Cantley LC
+  TITLE     The phosphoinositide 3-kinase pathway.
+  JOURNAL   Science 296:1655-7 (2002)
+            DOI:10.1126/science.296.5573.1655
+REFERENCE   PMID:26071484
+  AUTHORS   Bertotti A, Sassi F
+  TITLE     Molecular Pathways: Sensitivity and Resistance to Anti-EGFR Antibodies.
+  JOURNAL   Clin Cancer Res 21:3377-83 (2015)
+            DOI:10.1158/1078-0432.CCR-14-0848
+REFERENCE   PMID:25312969
+  AUTHORS   Makker A, Goel MM, Mahdi AA
+  TITLE     PI3K/PTEN/Akt and TSC/mTOR signaling pathways, ovarian dysfunction, and infertility: an update.
+  JOURNAL   J Mol Endocrinol 53:R103-18 (2014)
+            DOI:10.1530/JME-14-0220
+REFERENCE   PMID:9838078
+  AUTHORS   Wymann MP, Pirola L
+  TITLE     Structure and function of phosphoinositide 3-kinases.
+  JOURNAL   Biochim Biophys Acta 1436:127-50 (1998)
+            DOI:10.1016/S0005-2760(98)00139-8
+///

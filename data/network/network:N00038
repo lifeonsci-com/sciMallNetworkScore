@@ -1,0 +1,50 @@
+ENTRY       N00038                      Network
+NAME        Amplified FGFR to PI3K signaling pathway
+DEFINITION  FGFR* -> PI3K -> PIP3 -> AKT -> MTOR
+  EXPANDED  (2260v1,2263v1) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475
+CLASS       nt06214 PI3K signaling
+            nt06261 Gastric cancer
+            nt06270 Breast cancer
+TYPE        Variant
+PATHWAY     hsa05224  Breast cancer
+            hsa05226  Gastric cancer
+DISEASE     H00031  Breast cancer
+            H00018  Gastric cancer
+GENE        2260  FGFR1; fibroblast growth factor receptor 1
+            2263  FGFR2; fibroblast growth factor receptor 2
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+VARIANT     2260v1  FGFR1 amplification
+            2263v1  FGFR2 amplification
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:24649067
+  AUTHORS   Zhang MH, Man HT, Zhao XD, Dong N, Ma SL
+  TITLE     Estrogen receptor-positive breast cancer molecular signatures and therapeutic potentials (Review).
+  JOURNAL   Biomed Rep 2:41-52 (2014)
+            DOI:10.3892/br.2013.187
+REFERENCE   PMID:20179196
+  AUTHORS   Turner N, Pearson A, Sharpe R, Lambros M, Geyer F, Lopez-Garcia MA, Natrajan R, Marchio C, Iorns E, Mackay A, Gillett C, Grigoriadis A, Tutt A, Reis-Filho JS, Ashworth A
+  TITLE     FGFR1 amplification drives endocrine therapy resistance and is a therapeutic target in breast cancer.
+  JOURNAL   Cancer Res 70:2085-94 (2010)
+            DOI:10.1158/0008-5472.CAN-09-3746
+REFERENCE   PMID:23696246
+  AUTHORS   Katoh M, Nakagama H
+  TITLE     FGF receptors: cancer biology and therapeutics.
+  JOURNAL   Med Res Rev 34:280-300 (2014)
+            DOI:10.1002/med.21288
+REFERENCE   PMID:19387476
+  AUTHORS   Katoh M
+  TITLE     FGFR2 abnormalities underlie a spectrum of bone, skin, and cancer pathologies.
+  JOURNAL   J Invest Dermatol 129:1861-7 (2009)
+            DOI:10.1038/jid.2009.97
+REFERENCE   PMID:20836672
+  AUTHORS   Katoh M
+  TITLE     Genetic alterations of FGF receptors: an emerging field in clinical cancer diagnostics and therapeutics.
+  JOURNAL   Expert Rev Anticancer Ther 10:1375-9 (2010)
+            DOI:10.1586/era.10.128
+///

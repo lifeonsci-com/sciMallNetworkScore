@@ -1,0 +1,35 @@
+ENTRY       N00159                      Network
+NAME        KSHV K1 to PI3K signaling pathway
+DEFINITION  kshvK1 -> PI3K -> PIP3 -> AKT -> MTOR
+  EXPANDED  K21669 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475
+CLASS       nt06214 PI3K signaling
+            nt06114 PI3K signaling (virus)
+            nt06164 Kaposi sarcoma-associated herpesvirus (KSHV)
+TYPE        Virus
+PATHWAY     hsa05167  Kaposi sarcoma-associated herpesvirus infection
+DISEASE     H00041  Kaposi sarcoma
+GENE        5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+PERTURBANT  K21669  K1; protein K1
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:26192396
+  AUTHORS   Sousa-Squiavinato AC, Silvestre RN, Elgui De Oliveira D
+  TITLE     Biology and oncogenicity of the Kaposi sarcoma herpesvirus K1 protein.
+  JOURNAL   Rev Med Virol 25:273-85 (2015)
+            DOI:10.1002/rmv.1843
+REFERENCE   PMID:27518127
+  AUTHORS   Abere B, Schulz TF
+  TITLE     KSHV non-structural membrane proteins involved in the activation of intracellular signaling pathways and the pathogenesis of Kaposi's sarcoma.
+  JOURNAL   Curr Opin Virol 20:11-19 (2016)
+            DOI:10.1016/j.coviro.2016.07.008
+REFERENCE   PMID:16585191
+  AUTHORS   Wang L, Dittmer DP, Tomlinson CC, Fakhari FD, Damania B
+  TITLE     Immortalization of primary endothelial cells by the K1 protein of Kaposi's sarcoma-associated herpesvirus.
+  JOURNAL   Cancer Res 66:3658-66 (2006)
+            DOI:10.1158/0008-5472.CAN-05-3680
+///

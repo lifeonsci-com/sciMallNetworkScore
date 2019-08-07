@@ -1,0 +1,57 @@
+ENTRY       N00037                      Network
+NAME        FGF-FGFR-PI3K signaling pathway
+DEFINITION  FGF -> FGFR -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  (2246,2247,2248,2249,2250,2251,2252,2253,2254,2255,8823,8822,8817,9965,26281,26291,27006,8074) -> (2260,2263,2261,2264) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06261 Gastric cancer
+            nt06270 Breast cancer
+TYPE        Reference
+PATHWAY     hsa04151  PI3K-Akt signaling pathway
+GENE        2246  FGF1; fibroblast growth factor 1
+            2247  FGF2; fibroblast growth factor 2
+            2248  FGF3; fibroblast growth factor 3
+            2249  FGF4; fibroblast growth factor 4
+            2250  FGF5; fibroblast growth factor 5
+            2251  FGF6; fibroblast growth factor 6
+            2252  FGF7; fibroblast growth factor 7
+            2253  FGF8; fibroblast growth factor 8
+            2254  FGF9; fibroblast growth factor 9
+            2255  FGF10; fibroblast growth factor 10
+            8823  FGF16; fibroblast growth factor 16
+            8822  FGF17; fibroblast growth factor 17
+            8817  FGF18; fibroblast growth factor 18
+            9965  FGF19; fibroblast growth factor 19
+            26281  FGF20; fibroblast growth factor 20
+            26291  FGF21; fibroblast growth factor 21
+            27006  FGF22; fibroblast growth factor 22
+            8074  FGF23; fibroblast growth factor 23
+            2260  FGFR1; fibroblast growth factor receptor 1
+            2263  FGFR2; fibroblast growth factor receptor 2
+            2261  FGFR3; fibroblast growth factor receptor 3
+            2264  FGFR4; fibroblast growth factor receptor 4
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:19644473
+  AUTHORS   Liu P, Cheng H, Roberts TM, Zhao JJ
+  TITLE     Targeting the phosphoinositide 3-kinase pathway in cancer.
+  JOURNAL   Nat Rev Drug Discov 8:627-44 (2009)
+            DOI:10.1038/nrd2926
+REFERENCE   PMID:11357143
+  AUTHORS   Blume-Jensen P, Hunter T
+  TITLE     Oncogenic kinase signalling.
+  JOURNAL   Nature 411:355-65 (2001)
+            DOI:10.1038/35077225
+REFERENCE   PMID:9838078
+  AUTHORS   Wymann MP, Pirola L
+  TITLE     Structure and function of phosphoinositide 3-kinases.
+  JOURNAL   Biochim Biophys Acta 1436:127-50 (1998)
+            DOI:10.1016/S0005-2760(98)00139-8
+///

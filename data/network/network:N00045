@@ -1,0 +1,31 @@
+ENTRY       N00045                      Network
+NAME        KITLG-KIT-PI3K signaling pathway
+DEFINITION  KITLG -> KIT -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  4254 -> 3815 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06275 Acute myeloid leukemia
+TYPE        Reference
+PATHWAY     hsa04151  PI3K-Akt signaling pathway
+GENE        4254  KITLG; KIT ligand
+            3815  KIT; KIT proto-oncogene receptor tyrosine kinase
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:19567460
+  AUTHORS   Mithraprabhu S, Loveland KL
+  TITLE     Control of KIT signalling in male germ cells: what can we learn from other systems?
+  JOURNAL   Reproduction 138:743-57 (2009)
+            DOI:10.1530/REP-08-0537
+REFERENCE   PMID:25941081
+  AUTHORS   Draber P, Halova I, Polakovicova I, Kawakami T
+  TITLE     Signal transduction and chemotaxis in mast cells.
+  JOURNAL   Eur J Pharmacol 778:11-23 (2016)
+            DOI:10.1016/j.ejphar.2015.02.057
+///

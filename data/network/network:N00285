@@ -1,0 +1,36 @@
+ENTRY       N00285                      Network
+NAME        AREG-overexpression to PI3K signaling pathway
+DEFINITION  AREG* -> EGFR -> PI3K -> PIP3 -> AKT -> S6K
+  EXPANDED  374v1 -> 1956 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06260 Colorectal cancer
+TYPE        Variant
+PATHWAY     hsa05210  Colorectal cancer
+DISEASE     H00020  Colorectal cancer
+GENE        374  AREG; amphiregulin
+            1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+VARIANT     374v1  AREG overexpression
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:20554751
+  AUTHORS   Dasari A, Messersmith WA
+  TITLE     New strategies in colorectal cancer: biomarkers of response to epidermal growth factor receptor monoclonal antibodies and potential therapeutic targets in phosphoinositide 3-kinase and mitogen-activated protein kinase pathways.
+  JOURNAL   Clin Cancer Res 16:3811-8 (2010)
+            DOI:10.1158/1078-0432.CCR-09-2283
+REFERENCE   PMID:26149458
+  AUTHORS   Hutchinson RA, Adams RA, McArt DG, Salto-Tellez M, Jasani B, Hamilton PW
+  TITLE     Epidermal growth factor receptor immunohistochemistry: new opportunities in metastatic colorectal cancer.
+  JOURNAL   J Transl Med 13:217 (2015)
+            DOI:10.1186/s12967-015-0531-z
+REFERENCE   PMID:21356164
+  AUTHORS   Yarom N, Jonker DJ
+  TITLE     The role of the epidermal growth factor receptor in the mechanism and treatment of colorectal cancer.
+  JOURNAL   Discov Med 11:95-105 (2011)
+///

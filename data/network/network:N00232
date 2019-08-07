@@ -1,0 +1,43 @@
+ENTRY       N00232                      Network
+NAME        TGFA-overexpression to PI3K signaling pathway
+DEFINITION  TGFA* -> EGFR -> PI3K -> PIP3 -> AKT
+  EXPANDED  7039v1 -> 1956 -> (5290,5291,5293) -> C05981 -> (207,208,10000)
+CLASS       nt06214 PI3K signaling
+            nt06260 Colorectal cancer
+            nt06263 Hepatocellular carcinoma
+TYPE        Variant
+PATHWAY     hsa05210  Colorectal cancer
+            hsa05225  Hepatocellular carcinoma
+DISEASE     H00020  Colorectal cancer
+            H00048  Hepatocellular carcinoma
+GENE        7039  TGFA; transforming growth factor alpha
+            1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+VARIANT     7039v1  TGFA overexpression
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:11252954
+  AUTHORS   Yarden Y, Sliwkowski MX.
+  TITLE     Untangling the ErbB signalling network.
+  JOURNAL   Nat Rev Mol Cell Biol 2:127-37 (2001)
+            DOI:10.1038/35052073
+REFERENCE   PMID:26149458
+  AUTHORS   Hutchinson RA, Adams RA, McArt DG, Salto-Tellez M, Jasani B, Hamilton PW
+  TITLE     Epidermal growth factor receptor immunohistochemistry: new opportunities in metastatic colorectal cancer.
+  JOURNAL   J Transl Med 13:217 (2015)
+            DOI:10.1186/s12967-015-0531-z
+REFERENCE   PMID:20639898
+  AUTHORS   Whittaker S, Marais R, Zhu AX
+  TITLE     The role of signaling pathways in the development and treatment of hepatocellular carcinoma.
+  JOURNAL   Oncogene 29:4989-5005 (2010)
+            DOI:10.1038/onc.2010.236
+REFERENCE   PMID:17295177
+  AUTHORS   Villanueva A, Newell P, Chiang DY, Friedman SL, Llovet JM.
+  TITLE     Genomics and signaling pathways in hepatocellular carcinoma.
+  JOURNAL   Semin Liver Dis 27:55-76 (2007)
+            DOI:10.1055/s-2006-960171
+///

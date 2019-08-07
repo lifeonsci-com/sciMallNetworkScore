@@ -1,0 +1,41 @@
+ENTRY       N00039                      Network
+NAME        PDGF-PDGFR-PI3K signaling pathway
+DEFINITION  PDGF -> PDGFR -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  (5154,5155) -> (5156,5159) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06273 Glioma
+            nt06114 PI3K signaling (virus)
+            nt06167 Human cytomegalovirus (HCMV)
+            nt06166 Human papillomavirus (HPV)
+TYPE        Reference
+PATHWAY     hsa04151  PI3K-Akt signaling pathway
+GENE        5154  PDGFA; platelet derived growth factor subunit A
+            5155  PDGFB; platelet derived growth factor subunit B
+            5156  PDGFRA; platelet derived growth factor receptor alpha
+            5159  PDGFRB; platelet derived growth factor receptor beta
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:19644473
+  AUTHORS   Liu P, Cheng H, Roberts TM, Zhao JJ
+  TITLE     Targeting the phosphoinositide 3-kinase pathway in cancer.
+  JOURNAL   Nat Rev Drug Discov 8:627-44 (2009)
+            DOI:10.1038/nrd2926
+REFERENCE   PMID:11357143
+  AUTHORS   Blume-Jensen P, Hunter T
+  TITLE     Oncogenic kinase signalling.
+  JOURNAL   Nature 411:355-65 (2001)
+            DOI:10.1038/35077225
+REFERENCE   PMID:9838078
+  AUTHORS   Wymann MP, Pirola L
+  TITLE     Structure and function of phosphoinositide 3-kinases.
+  JOURNAL   Biochim Biophys Acta 1436:127-50 (1998)
+            DOI:10.1016/S0005-2760(98)00139-8
+///

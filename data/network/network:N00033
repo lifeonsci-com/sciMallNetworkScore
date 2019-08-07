@@ -1,0 +1,49 @@
+ENTRY       N00033                      Network
+NAME        EGF-EGFR-PI3K signaling pathway
+DEFINITION  EGF -> EGFR -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  1950 -> 1956 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06260 Colorectal cancer
+            nt06266 Non-small cell lung cancer
+            nt06270 Breast cancer
+            nt06273 Glioma
+            nt06276 Chronic myeloid leukemia
+            nt06114 PI3K signaling (virus)
+            nt06170 Influenza A virus (IAV)
+            nt06162 Hepatitis B virus (HBV)
+            nt06163 Hepatitis C virus (HCV)
+            nt06165 Epstein-Barr virus (EBV)
+            nt06166 Human papillomavirus (HPV)
+TYPE        Reference
+PATHWAY     hsa04151  PI3K-Akt signaling pathway
+GENE        1950  EGF; epidermal growth factor
+            1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:12040186
+  AUTHORS   Cantley LC
+  TITLE     The phosphoinositide 3-kinase pathway.
+  JOURNAL   Science 296:1655-7 (2002)
+            DOI:10.1126/science.296.5573.1655
+REFERENCE   PMID:15784165
+  AUTHORS   Song G, Ouyang G, Bao S
+  TITLE     The activation of Akt/PKB signaling pathway and cell survival.
+  JOURNAL   J Cell Mol Med 9:59-71 (2005)
+            DOI:10.1111/j.1582-4934.2005.tb00337.x
+REFERENCE   PMID:21620960
+  AUTHORS   Hers I, Vincent EE, Tavare JM
+  TITLE     Akt signalling in health and disease.
+  JOURNAL   Cell Signal 23:1515-27 (2011)
+            DOI:10.1016/j.cellsig.2011.05.004
+REFERENCE   PMID:16341064
+  AUTHORS   Hennessy BT, Smith DL, Ram PT, Lu Y, Mills GB.
+  TITLE     Exploiting the PI3K/AKT pathway for cancer drug discovery.
+  JOURNAL   Nat Rev Drug Discov 4:988-1004 (2005)
+            DOI:10.1038/nrd1902
+///

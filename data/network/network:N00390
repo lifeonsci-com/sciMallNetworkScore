@@ -1,0 +1,36 @@
+ENTRY       N00390                      Network
+NAME        EGF-EGFR-PI3K-NFKB signaling pathway
+DEFINITION  EGF -> EGFR -> PI3K -> PIP3 -> AKT -> IKK -> NFKBIA -> NFKB
+  EXPANDED  1950 -> 1956 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> (1147+3551+8517) -> 4792 -> (4790+5970)
+CLASS       nt06214 PI3K signaling
+            nt06114 PI3K signaling (virus)
+            nt06160 Human T-cell leukemia virus 1 (HTLV-1)
+            nt06167 Human cytomegalovirus (HCMV)
+TYPE        Reference
+PATHWAY     hsa04151  PI3K-Akt signaling pathway
+GENE        1950  EGF; epidermal growth factor
+            1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            1147  CHUK; conserved helix-loop-helix ubiquitous kinase
+            3551  IKBKB; inhibitor of nuclear factor kappa B kinase subunit beta
+            8517  IKBKG; inhibitor of nuclear factor kappa B kinase subunit gamma
+            4792  NFKBIA; NFKB inhibitor alpha
+            4790  NFKB1; nuclear factor kappa B subunit 1
+            5970  RELA; RELA proto-oncogene, NF-kB subunit
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:18721898
+  AUTHORS   Yap TA, Garrett MD, Walton MI, Raynaud F, de Bono JS, Workman P
+  TITLE     Targeting the PI3K-AKT-mTOR pathway: progress, pitfalls, and promises.
+  JOURNAL   Curr Opin Pharmacol 8:393-412 (2008)
+            DOI:10.1016/j.coph.2008.08.004
+REFERENCE   PMID:25690730
+  AUTHORS   Li F, Zhang J, Arfuso F, Chinnathambi A, Zayed ME, Alharbi SA, Kumar AP, Ahn KS, Sethi G
+  TITLE     NF-kappaB in cancer therapy.
+  JOURNAL   Arch Toxicol 89:711-31 (2015)
+            DOI:10.1007/s00204-015-1470-4
+///

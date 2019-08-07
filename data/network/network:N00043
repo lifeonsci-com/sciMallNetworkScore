@@ -1,0 +1,37 @@
+ENTRY       N00043                      Network
+NAME        HGF-MET-PI3K signaling pathway
+DEFINITION  HGF -> MET -> GAB1 -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  3082 -> 4233 -> 2549 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06261 Gastric cancer
+            nt06263 Hepatocellular carcinoma
+            nt06264 Renal cell carcinoma
+TYPE        Reference
+PATHWAY     hsa04151  PI3K-Akt signaling pathway
+GENE        3082  HGF; hepatocyte growth factor
+            2549  GAB1; GRB2 associated binding protein 1
+            4233  MET; MET proto-oncogene, receptor tyrosine kinase
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:14685170
+  AUTHORS   Birchmeier C, Birchmeier W, Gherardi E, Vande Woude GF.
+  TITLE     Met, metastasis, motility and more.
+  JOURNAL   Nat Rev Mol Cell Biol 4:915-25 (2003)
+            DOI:10.1038/nrm1261
+REFERENCE   PMID:28374784
+  AUTHORS   Bradley CA, Salto-Tellez M, Laurent-Puig P, Bardelli A, Rolfo C, Tabernero J, Khawaja HA, Lawler M, Johnston PG, Van Schaeybroeck S
+  TITLE     Targeting c-MET in gastrointestinal tumours: rationale, opportunities and challenges.
+  JOURNAL   Nat Rev Clin Oncol 14:562-576 (2017)
+            DOI:10.1038/nrclinonc.2017.40
+REFERENCE   PMID:23226133
+  AUTHORS   Meyer R, D'Alessandro LA, Kar S, Kramer B, She B, Kaschek D, Hahn B, Wrangborg D, Karlsson J, Kvarnstrom M, Jirstrand M, Lehmann WD, Timmer J, Hofer T, Klingmuller U
+  TITLE     Heterogeneous kinetics of AKT signaling in individual cells are accounted for by variable protein concentration.
+  JOURNAL   Front Physiol 3:451 (2012)
+            DOI:10.3389/fphys.2012.00451
+///

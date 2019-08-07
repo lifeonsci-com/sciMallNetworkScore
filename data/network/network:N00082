@@ -1,0 +1,26 @@
+ENTRY       N00082                      Network
+NAME        Loss of NKX3-1 to PI3K signaling pathway
+DEFINITION  NKX3-1* // AKT -| BAD
+  EXPANDED  4824v1 // (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06272 Prostate cancer
+TYPE        Variant
+PATHWAY     hsa05215  Prostate cancer
+DISEASE     H00024  Prostate cancer
+GENE        4824  NKX3-1; NK3 homeobox 1
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+VARIANT     4824v1  NKX3-1 loss
+REFERENCE   PMID:12878745
+  AUTHORS   Nelson WG, De Marzo AM, Isaacs WB.
+  TITLE     Prostate cancer.
+  JOURNAL   N Engl J Med 349:366-81 (2003)
+            DOI:10.1056/NEJMra021562
+REFERENCE   PMID:11854455
+  AUTHORS   Kim MJ, Cardiff RD, Desai N, Banach-Petrosky WA, Parsons R, Shen MM, Abate-Shen C
+  TITLE     Cooperativity of Nkx3.1 and Pten loss of function in a mouse model of prostate carcinogenesis.
+  JOURNAL   Proc Natl Acad Sci U S A 99:2884-9 (2002)
+            DOI:10.1073/pnas.042688999
+///

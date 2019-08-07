@@ -1,0 +1,43 @@
+ENTRY       N00044                      Network
+NAME        Mutation-activated MET to PI3K signaling pathway
+DEFINITION  MET* -> GAB1 -> PI3K -> PIP3 -> AKT -| BAD
+  EXPANDED  4233v1 -> 2549 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -| 572
+CLASS       nt06214 PI3K signaling
+            nt06263 Hepatocellular carcinoma
+            nt06264 Renal cell carcinoma
+TYPE        Variant
+PATHWAY     hsa05225  Hepatocellular carcinoma
+            hsa05211  Renal cell carcinoma
+DISEASE     H00048  Hepatocellular carcinoma
+            H00021  Renal cell carcinoma
+GENE        4233  MET; MET proto-oncogene, receptor tyrosine kinase
+            2549  GAB1; GRB2 associated binding protein 1
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            572  BAD; BCL2 associated agonist of cell death
+VARIANT     4233v1  MET kinase domain mutation
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:14685170
+  AUTHORS   Birchmeier C, Birchmeier W, Gherardi E, Vande Woude GF.
+  TITLE     Met, metastasis, motility and more.
+  JOURNAL   Nat Rev Mol Cell Biol 4:915-25 (2003)
+            DOI:10.1038/nrm1261
+REFERENCE   PMID:9426201
+  AUTHORS   Bardelli A, Pugliese L, Comoglio PM
+  TITLE     "Invasive-growth" signaling by the Met/HGF receptor: the hereditary renal carcinoma connection.
+  JOURNAL   Biochim Biophys Acta 1333:M41-51 (1997)
+            DOI:10.1016/S0304-419X(97)00026-7
+REFERENCE   PMID:16799620
+  AUTHORS   Breuhahn K, Longerich T, Schirmacher P
+  TITLE     Dysregulation of growth factor signaling in human hepatocellular carcinoma.
+  JOURNAL   Oncogene 25:3787-800 (2006)
+            DOI:10.1038/sj.onc.1209556
+REFERENCE   PMID:9927037
+  AUTHORS   Park WS, Dong SM, Kim SY, Na EY, Shin MS, Pi JH, Kim BJ, Bae JH, Hong YK, Lee KS, Lee SH, Yoo NJ, Jang JJ, Pack S, Zhuang Z, Schmidt L, Zbar B, Lee JY
+  TITLE     Somatic mutations in the kinase domain of the Met/hepatocyte growth factor receptor gene in childhood hepatocellular carcinomas.
+  JOURNAL   Cancer Res 59:307-10 (1999)
+///

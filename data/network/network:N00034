@@ -1,0 +1,45 @@
+ENTRY       N00034                      Network
+NAME        ERBB2-overexpression to PI3K signaling pathway
+DEFINITION  EGF -> (ERBB2*+EGFR) -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  1950 -> (2064v1+1956) -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06262 Pancreatic cancer
+            nt06270 Breast cancer
+TYPE        Variant
+PATHWAY     hsa05224  Breast cancer
+            hsa05212  Pancreatic cancer
+DISEASE     H00031  Breast cancer
+            H00019  Pancreatic cancer
+GENE        1950  EGF; epidermal growth factor
+            2064  ERBB2; erb-b2 receptor tyrosine kinase 2
+            1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+VARIANT     2064v1  ERBB2 overexpression
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:22178455
+  AUTHORS   Eroles P, Bosch A, Perez-Fidalgo JA, Lluch A
+  TITLE     Molecular biology in breast cancer: intrinsic subtypes and signaling pathways.
+  JOURNAL   Cancer Treat Rev 38:698-707 (2012)
+            DOI:10.1016/j.ctrv.2011.11.005
+REFERENCE   PMID:25544707
+  AUTHORS   Dittrich A, Gautrey H, Browell D, Tyson-Capper A
+  TITLE     The HER2 Signaling Network in Breast Cancer--Like a Spider in its Web.
+  JOURNAL   J Mammary Gland Biol Neoplasia 19:253-70 (2014)
+            DOI:10.1007/s10911-014-9329-5
+REFERENCE   PMID:24649067
+  AUTHORS   Zhang MH, Man HT, Zhao XD, Dong N, Ma SL
+  TITLE     Estrogen receptor-positive breast cancer molecular signatures and therapeutic potentials (Review).
+  JOURNAL   Biomed Rep 2:41-52 (2014)
+            DOI:10.3892/br.2013.187
+REFERENCE   PMID:23340292
+  AUTHORS   Chang Z, Li Z, Wang X, Kang Y, Yuan Y, Niu J, Wang H, Chatterjee D, Fleming JB, Li M, Abbruzzese JL, Chiao PJ
+  TITLE     Deciphering the mechanisms of tumorigenesis in human pancreatic ductal epithelial cells.
+  JOURNAL   Clin Cancer Res 19:549-59 (2013)
+            DOI:10.1158/1078-0432.CCR-12-0032
+///

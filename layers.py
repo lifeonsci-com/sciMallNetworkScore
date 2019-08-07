@@ -28,7 +28,7 @@ class Layer(object):
 
     # Methods
         _call(inputs): Defines computation graph of layer
-            (i.e. takes input, returns output)
+            (i.e. takes input, returns emb)
         __call__(inputs): Wrapper for _call()
     """
 

@@ -1,0 +1,51 @@
+ENTRY       nt06214           Map       Network
+NAME        PI3K signaling
+MAP         nt06214  PI3K signaling
+MEMBER      N00033  EGF-EGFR-PI3K signaling pathway
+            N00281  EGF-overexpression to PI3K signaling pathway
+            N00231  TGFA-EGFR-PI3K signaling pathway
+            N00232  TGFA-overexpression to PI3K signaling pathway
+            N00282  EREG-EGFR-PI3K signaling pathway
+            N00283  EREG-overexpression to PI3K signaling pathway
+            N00284  AREG-EGFR-PI3K signaling pathway
+            N00285  AREG-overexpression to PI3K signaling pathway
+            N00036  Mutation-activated EGFR to PI3K signaling pathway
+            N00035  Amplified EGFR to PI3K signaling pathway
+            N00042  EGFR-overexpression to PI3K signaling pathway
+            N00034  ERBB2-overexpression to PI3K signaling pathway
+            N00253  Amplified ERBB2 to PI3K signaling pathway
+            N00039  PDGF-PDGFR-PI3K signaling pathway
+            N00040  Amplified PDGFR to PI3K signaling pathway
+            N00045  KITLG-KIT-PI3K signaling pathway
+            N00046  Mutation-activated KIT to PI3K signaling pathway
+            N00037  FGF-FGFR-PI3K signaling pathway
+            N00038  Amplified FGFR to PI3K signaling pathway
+            N00234  IGF2-IGF1R-PI3K signaling pathway
+            N00236  IGF2-overexpression to PI3K signaling pathway
+            N00238  IGF1R-overexpression to PI3K signaling pathway
+            N00043  HGF-MET-PI3K signaling pathway
+            N00247  HGF-overexpression to PI3K signaling pathway
+            N00044  Mutation-activated MET to PI3K signaling pathway
+            N00260  Amplified MET to PI3K signaling pathway
+            N00249  MET-overexpression to PI3K signaling pathway
+            N00048  BCR-ABL fusion kinase to PI3K signaling pathway
+            N00047  EML4-ALK fusion kinase to PI3K signaling pathway
+            N00159  KSHV K1 to PI3K signaling pathway
+            N00267  HBV HBx to PI3K signaling pathway
+            N00272  HCV NS5A to PI3K signaling pathway
+            N00049  Mutation-activated PI3K to PI3K signaling pathway
+            N00050  Amplified PI3K to PI3K signaling pathway
+            N00390  EGF-EGFR-PI3K-NFKB signaling pathway
+            N00182  IGF-IGFR-PI3K-NFKB signaling pathway
+            N00179  KSHV K1 to PI3K-NFKB signaling pathway
+            N00501  HTLV-1 Tax to EGFR-PI3K-NFKB signaling pathway
+            N00220  PTEN-PIP3-AKT signaling pathway
+            N00051  Deleted PTEN to PI3K signaling pathway
+            N00052  Mutation-inactivated PTEN to PI3K signaling pathway
+            N00082  Loss of NKX3-1 to PI3K signaling pathway
+            N00502  HTLV-1 Tax to PTEN-PIP3-AKT signaling pathway
+            N00030  EGF-EGFR-RAS-PI3K signaling pathway
+            N00218  FLT3LG-FLT3-RAS-PI3K signaling pathway
+            N00031  Duplication or mutation-activated FLT3 to RAS-PI3K signaling pathway
+            N00032  Mutation-activated KRAS/NRAS to PI3K signaling pathway
+///

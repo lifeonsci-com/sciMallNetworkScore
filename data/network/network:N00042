@@ -1,0 +1,53 @@
+ENTRY       N00042                      Network
+NAME        EGFR-overexpression to PI3K signaling pathway
+DEFINITION  EGFR* -> PI3K -> PIP3 -> AKT -> MTOR -> S6K
+  EXPANDED  1956v4 -> (5290,5291,5293) -> C05981 -> (207,208,10000) -> 2475 -> (6198,6199)
+CLASS       nt06214 PI3K signaling
+            nt06260 Colorectal cancer
+            nt06270 Breast cancer
+            nt06273 Glioma
+TYPE        Variant
+PATHWAY     hsa05210  Colorectal cancer
+            hsa05214  Glioma
+            hsa05224  Breast cancer
+DISEASE     H00020  Colorectal cancer
+            H00042  Glioma
+            H00031  Breast cancer
+GENE        1956  EGFR; epidermal growth factor receptor
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+            2475  MTOR; mechanistic target of rapamycin
+            6198  RPS6KB1; ribosomal protein S6 kinase B1
+            6199  RPS6KB2; ribosomal protein S6 kinase B2
+VARIANT     1956v4  EGFR overexpression
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:24213116
+  AUTHORS   Wang D, Xia D, Dubois RN
+  TITLE     The Crosstalk of PTGS2 and EGF Signaling Pathways in Colorectal Cancer.
+  JOURNAL   Cancers (Basel) 3:3894-908 (2011)
+            DOI:10.3390/cancers3043894
+REFERENCE   PMID:16700615
+  AUTHORS   Bansal K, Liang ML, Rutka JT.
+  TITLE     Molecular biology of human gliomas.
+  JOURNAL   Technol Cancer Res Treat 5:185-94 (2006)
+            DOI:10.1177/153303460600500302
+REFERENCE   PMID:26967052
+  AUTHORS   Li X, Wu C, Chen N, Gu H, Yen A, Cao L, Wang E, Wang L
+  TITLE     PI3K/Akt/mTOR signaling pathway and targeted therapy for glioblastoma.
+  JOURNAL   Oncotarget 7:33440-50 (2016)
+            DOI:10.18632/oncotarget.7961
+REFERENCE   PMID:26925626
+  AUTHORS   Alanazi IO, Khan Z
+  TITLE     Understanding EGFR Signaling in Breast Cancer and Breast Cancer Stem Cells: Overexpression and Therapeutic Implications.
+  JOURNAL   Asian Pac J Cancer Prev 17:445-53 (2016)
+            DOI:10.7314/APJCP.2016.17.2.445
+REFERENCE   PMID:23988612
+  AUTHORS   Mohamed A, Krajewski K, Cakar B, Ma CX
+  TITLE     Targeted therapy for breast cancer.
+  JOURNAL   Am J Pathol 183:1096-112 (2013)
+            DOI:10.1016/j.ajpath.2013.07.005
+///

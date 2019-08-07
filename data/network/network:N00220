@@ -1,0 +1,43 @@
+ENTRY       N00220                      Network
+NAME        PTEN-PIP3-AKT signaling pathway
+DEFINITION  PTEN -| PIP3 -> AKT
+  EXPANDED  5728 -| C05981 -> (207,208,10000)
+CLASS       nt06214 PI3K signaling
+            nt06263 Hepatocellular carcinoma
+            nt06267 Small cell lung cancer
+            nt06268 Melanoma
+            nt06270 Breast cancer
+            nt06271 Endometrial cancer
+            nt06272 Prostate cancer
+            nt06273 Glioma
+            nt06114 PI3K signaling (virus)
+            nt06160 Human T-cell leukemia virus 1 (HTLV-1)
+            nt06166 Human papillomavirus (HPV)
+TYPE        Reference
+PATHWAY     hsa04151  PI3K-Akt signaling pathway
+GENE        5728  PTEN; phosphatase and tensin homolog
+            207  AKT1; AKT serine/threonine kinase 1
+            208  AKT2; AKT serine/threonine kinase 2
+            10000  AKT3; AKT serine/threonine kinase 3
+METABOLITE  C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:21779440
+  AUTHORS   Georgescu MM
+  TITLE     PTEN Tumor Suppressor Network in PI3K-Akt Pathway Control.
+  JOURNAL   Genes Cancer 1:1170-7 (2010)
+            DOI:10.1177/1947601911407325
+REFERENCE   PMID:22473468
+  AUTHORS   Song MS, Salmena L, Pandolfi PP
+  TITLE     The functions and regulation of the PTEN tumour suppressor.
+  JOURNAL   Nat Rev Mol Cell Biol 13:283-96 (2012)
+            DOI:10.1038/nrm3330
+REFERENCE   PMID:21430697
+  AUTHORS   Hollander MC, Blumenthal GM, Dennis PA
+  TITLE     PTEN loss in the continuum of common cancers, rare syndromes and mouse models.
+  JOURNAL   Nat Rev Cancer 11:289-301 (2011)
+            DOI:10.1038/nrc3037
+REFERENCE   PMID:24672426
+  AUTHORS   Lasarge CL, Danzer SC
+  TITLE     Mechanisms regulating neuronal excitability and seizure development following mTOR pathway hyperactivation.
+  JOURNAL   Front Mol Neurosci 7:18 (2014)
+            DOI:10.3389/fnmol.2014.00018
+///
